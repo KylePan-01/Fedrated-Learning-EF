@@ -3,4 +3,4 @@
 --dataset=cifar10 --model=resnet18 --rounds=400 --lr=0.01 --epochs=5 --b_size=64 --criterion=ce --optimizer=sgd --accuracy=0.90 --latencyOpt=SA
 
 
-p = math.exp(-((new_latency - latency) + (former_accuracy - accuracy) - new_latency) / (temperature + sum(latency_sum)))
+设定随机数为17,numpy随机数和torch.cuda随机数
