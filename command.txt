@@ -2,5 +2,6 @@
 
 --dataset=cifar10 --model=resnet18 --rounds=400 --lr=0.01 --epochs=5 --b_size=64 --criterion=ce --optimizer=sgd --accuracy=0.90 --latencyOpt=SA
 
+--dataset=r8 --model=lstm --rounds=200 --lr=0.01 --epochs=5 --b_size=10 --criterion=ce --optimizer=sgd --accuracy=0.93
 
 设定随机数为17,numpy随机数和torch.cuda随机数
